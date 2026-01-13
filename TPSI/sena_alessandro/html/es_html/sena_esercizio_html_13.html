@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Esercizio_HTML_12</title>
+        <meta http-equiv="refresh" content="100">
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td> <label for="idnome">Nome: </label></td>
+                    <td> <input type="text" id="idnome" name="nome"  size="50" placeholder="Nome"></td>
+                </tr>
+                <tr>
+                    <td><label for="idcognome">Cognome: </label></td>
+                    <td><input type="text" id="idcognome" name="cognnome" placeholder="Cognome"  size="50"></td>
+                </tr>
+            </table>
+            <p> inserisci il tuo sesso:</p>
+            <input type="radio" id="Maschio" name="sesso" value="Maschio">
+            <label for="Maschio">  Maschio</label><br>
+            <input type="radio" id="Femmina" name="sesso" value="Femmina">
+            <label for="Femmina">  Femmina</label><br>
+            <br><br>
+            <label for="Università">Ateneo:
+                <select name="Univeristà" id="Università">
+                    <option value="Università degli Studi di Roma "> università degli studi </option>
+                    <option value="LUMSA "> università LUMSA </option>
+                    <option value="Foro italico"> foro italico </option>
+                </select> <br> <br>
+            </label>
+            <label for="cap">CAP:</label>
+                <input type="text" id="cap" name="cap" maxlength="5" size="5" placeholder="00100"> <br> <br> <br>
+            
+                <p> chi sei nella vita: ?</p>
+                <div>
+                      <input type="checkbox" id="studente" name="studente_lavoratore">
+                      <label for="studente">Studente </label> <br>
+                      <input type="checkbox" id="lavoratore" name="studente_lavoratore">
+                      <label for="lavoratore">lavoratore</label>
+                </div> 
+                 <br> <br>
+
+                <div>
+                 <label for="descrizione">Descrizione del lavoro svolto:</label><br>
+                 <input type="text" id="descrizione" name="descrizione_lavoro" maxlength="80" size="40" placeholder="Max 80 caratteri">
+                </div> <br> <br>
+
+            <input type="submit">
+            <br> <br>
+
+            <input type="reset">
+        </form>
+    </body>
+</html>
