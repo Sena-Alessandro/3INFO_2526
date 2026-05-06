@@ -1,0 +1,33 @@
+#pr1{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+ul.cercho {
+    list-style-type: circle;
+}
+
+ol.roman {
+    list-style-type: upper-roman;
+}
+
+#dr10{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+#dr20{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
