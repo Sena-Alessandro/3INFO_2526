@@ -1,0 +1,10 @@
+div > div{
+    display: inline;
+    border: 1px solid black;
+    float: left;
+}
+
+div:nth-child(even){
+    color: black;
+    background-color: gray;
+}

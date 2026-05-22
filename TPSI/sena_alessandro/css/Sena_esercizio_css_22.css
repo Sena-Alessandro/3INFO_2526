@@ -1,0 +1,11 @@
+li{
+  background-color: black;
+  display: inline;
+  float: left;
+  padding: 11px;
+  color: white;
+}
+
+li:hover{
+  background-color: gray;
+}
